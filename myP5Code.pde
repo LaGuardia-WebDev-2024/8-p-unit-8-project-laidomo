@@ -19,15 +19,37 @@ mouseClicked = function(){
 
 //🟡drawFish Function - will run when called
 var drawFish = function(fishX, fishY, fishColor){
-  textSize(30);
+  textSize(70);
   fill(fishColor);
-  text("🐠", fishX);
-
-  textSize(20);
-  fill(fishColor);
-  text("🐠", fishX, fishY);
+ text("🐋", 500, 140);
 };
 
+//🟡drawFish Function - will run when called
+var drawFish = function(fishX, fishY, fishColor){
+textSize(55);
+ fill(fishColor);
+text("🐬",500,200);
+};
 
+//🟡drawFish Function - will run when called
+var drawFish = function(fishX, fishY, fishColor){
+textSize(50);
+fill(fishColor)
+text("🐟", 500,325)
+};
+
+//🟡drawFish Function - will run when called
+var drawFish = function(fishX, fishY, fishColor){
+textSize(30);
+fill(fishColor)
+text("🐠", 490,350)
+};
+
+//🟡drawFish Function - will run when called
+var drawFish = function(fishX, fishY, fishColor){
+textSize(70);
+fill(fishColor)
+text("🐙", 520,250)
+};
 
 
