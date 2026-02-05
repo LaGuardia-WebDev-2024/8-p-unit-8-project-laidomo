@@ -4,7 +4,7 @@ setup = function() {
     background(255,255,255,0);
     
     drawFish(500, 100, color(200,0,200)); 
-    drawFish(500, 200, color(0,200,200));
+    drawTurtle(500, 200, color(0,0,0));
 };
 
 //🟢draw Function - will run on repeat
@@ -21,35 +21,18 @@ mouseClicked = function(){
 var drawFish = function(fishX, fishY, fishColor){
   textSize(70);
   fill(fishColor);
- text("🐋", 500, 140);
+ text("🐇", 500, 140);
 };
 
-//🟡drawFish Function - will run when called
-var drawFish = function(fishX, fishY, fishColor){
-textSize(55);
- fill(fishColor);
-text("🐬",500,200);
+
+//🟡drawTurtle Function - will run when called
+var drawTurtle = function(turtleX, turtleY, turtleColor){
+  textSize(70);
+  fill(turtleColor);
+ text("🐢", 500, 270);
 };
 
-//🟡drawFish Function - will run when called
-var drawFish = function(fishX, fishY, fishColor){
-textSize(50);
-fill(fishColor)
-text("🐟", 500,325)
-};
 
-//🟡drawFish Function - will run when called
-var drawFish = function(fishX, fishY, fishColor){
-textSize(30);
-fill(fishColor)
-text("🐠", 490,350)
-};
 
-//🟡drawFish Function - will run when called
-var drawFish = function(fishX, fishY, fishColor){
-textSize(70);
-fill(fishColor)
-text("🐙", 520,250)
-};
 
 
