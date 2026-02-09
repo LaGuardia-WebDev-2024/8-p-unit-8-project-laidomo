@@ -11,8 +11,8 @@ background(255,255,255,0);
    
 
     drawFish(500+Fishmove, 100, color(200,0,200));
-    drawTurtle(500, 200, color(0,0,0));
-     Fishmove-=5
+    drawTurtle(mouseX, 250, color(0,0,0));
+     Fishmove-=15
 };
 
 //🟢mouseClicked Function - will run when mouse is clicked
@@ -32,7 +32,7 @@ var drawFish = function(fishX, fishY, fishColor){
 var drawTurtle = function(turtleX, turtleY, turtleColor){
   textSize(70);
   fill(turtleColor);
- text("🐢", 500, 270);
+ text("🐢", turtleX, turtleY);
 };
 
 

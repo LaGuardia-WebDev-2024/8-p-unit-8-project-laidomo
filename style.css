@@ -4,9 +4,9 @@
 }
 
 body {
-  background-color: aliceblue;
+  background-color: rgb(222, 224, 226);
   text-align: center;
-  color: navy;
+  color: rgb(34, 73, 2);
   margin: auto;
   font-family: water;
 }
